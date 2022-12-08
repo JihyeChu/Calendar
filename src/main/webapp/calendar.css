@@ -1,0 +1,139 @@
+html{
+	margin: 30px;
+}
+tr{
+	height: 80px; /* 행 높이 */
+	border-width: 0px;
+}
+
+th {
+	border-width: 0px;
+}
+
+th#title {
+	font-size: 50pt; 
+	font-family: D2Coding; 
+	font-weight: bold; 
+	color: black;
+	text-align: center;
+}
+
+
+td {
+	font-family: D2Coding;
+	font-weight: bold;
+	width: 100px; /* 열 너비 */
+}
+
+td#sunday {
+	font-size: 20pt;
+	color: black;
+	text-align: center; /* 수평 정렬 */
+}
+
+td.etcday {
+	font-size: 20pt;
+	color: black;
+	text-align: center;
+}
+
+td#saturday {
+	font-size: 20pt;
+	color: black;
+	text-align: center;
+}
+
+td.sun {
+	font-size: 15pt;
+	color: black;
+	text-align: center;
+	vertical-align: top; /* 수직 정렬  */
+}
+
+td.etc {
+	font-size: 15pt;
+	color: black;
+	text-align: center;
+	vertical-align: top; /* 배경 색 */
+}
+
+td.sat {
+	font-size: 15pt;
+	color: black;
+	text-align: center;
+	vertical-align: top;
+}
+
+td.beforesun {
+	font-size: 10px;
+	color: black;
+	text-align: center;
+	vertical-align: top;
+}
+
+td.before {
+	font-size: 10px;
+	color: black;
+	text-align: center;
+	vertical-align: top;
+}
+
+td.aftersat {
+	font-size: 10px;
+	color: black;
+	text-align: center;
+	vertical-align: top;
+}
+
+td.after {
+	font-size: 10px;
+	color: black;
+	text-align: center;
+	vertical-align: top;
+}
+
+.button{
+	color: white;
+	padding: 5px;
+	
+	text-decoration: none;
+	display: inline-block;
+	font-size: 30px;
+}
+
+.button1 {
+	background-color: white; 
+	
+	color: black; 
+	border: 3px gray solid;
+	border-radius: 50px;
+	width: 60px;
+	height: 60px;
+}
+
+.button:hover{
+	background-color: slategray;
+}
+
+.select {
+	width: 100px;
+	height: 30px;
+	border: 1px gray solid;
+	border-radius: 20px;
+	background-color: white;
+}
+
+.select:hover{
+	background-color: gainsboro;
+}
+
+td.holiday {
+	font-size: 13pt;
+	color: #FF5675;
+	text-align: center;
+	vertical-align: top;
+}
+
+span {
+	font-size: 9pt;
+}
